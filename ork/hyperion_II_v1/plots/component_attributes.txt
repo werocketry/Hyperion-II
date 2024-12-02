@@ -1,0 +1,322 @@
+List of all components with their attributes:
+
+Component 1:
+  Name: HyperionIIV1
+  Type: Rocket
+  Mass: 0.0 kg
+  Length: 2.7974218000000004 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 2:
+  Name: Sustainer
+  Type: AxialStage
+  Mass: 0.0 kg
+  Length: 2.7720218 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 3:
+  Name: Nose Cone
+  Type: NoseCone
+  Mass: 0.636 kg
+  Length: 0.742 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 4:
+  Name: Nosecone - Flat Portion
+  Type: BodyTube
+  Mass: 0.3 kg
+  Length: 0.1397 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 5:
+  Name: Payload
+  Type: MassComponent
+  Mass: 3.992 kg
+  Length: 0.3 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 6:
+  Name: Main Chute Bay
+  Type: BodyTube
+  Mass: 0.335 kg
+  Length: 0.39032179999999994 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 7:
+  Name: Nosecone-Main Coupler
+  Type: TubeCoupler
+  Mass: 0.312 kg
+  Length: 0.28 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 8:
+  Name: Nosecone-Main Bulkhead
+  Type: Bulkhead
+  Mass: 0.5535 kg
+  Length: 0.015 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 9:
+  Name: Main Parachute
+  Type: Parachute
+  Mass: 1.044 kg
+  Length: 0.2286 m
+  Diameter: 2.4383999999999997 m
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 10:
+  Name: Deployable Payload
+  Type: MassComponent
+  Mass: 1.5 kg
+  Length: 0.1 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 11:
+  Name: Deployable Parachute
+  Type: Parachute
+  Mass: 0.377 kg
+  Length: 0.115824 m
+  Diameter: 0.6095999999999999 m
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 12:
+  Name: Av Bay Body Tube
+  Type: BodyTube
+  Mass: 0.28600000000000003 kg
+  Length: 0.32799999999999996 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 13:
+  Name: Avionics
+  Type: MassComponent
+  Mass: 0.77 kg
+  Length: 0.298 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 14:
+  Name: Main-Avionics Coupler
+  Type: TubeCoupler
+  Mass: 0.244 kg
+  Length: 0.28 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 15:
+  Name: Avionics-Main Bulkhead
+  Type: Bulkhead
+  Mass: 0.5535 kg
+  Length: 0.015 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 16:
+  Name: Airbrakes-Drogue Body Tube
+  Type: BodyTube
+  Mass: 0.359 kg
+  Length: 0.56 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 17:
+  Name: Avionics-Drogue Coupler
+  Type: TubeCoupler
+  Mass: 0.244 kg
+  Length: 0.28 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 18:
+  Name: Drogue-Avionics Bulkhead
+  Type: Bulkhead
+  Mass: 0.5535 kg
+  Length: 0.015 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 19:
+  Name: Drogue Parachute
+  Type: Parachute
+  Mass: 0.377 kg
+  Length: 0.15239999999999998 m
+  Diameter: 0.6095999999999999 m
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 20:
+  Name: Airbrakes-Drogue Bulkhead
+  Type: Bulkhead
+  Mass: 0.5967 kg
+  Length: 0.015 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 21:
+  Name: Airbrakes
+  Type: MassComponent
+  Mass: 0.663 kg
+  Length: 0.23 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 22:
+  Name: Additional Mass
+  Type: MassComponent
+  Mass: 1.0 kg
+  Length: 0.025 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 23:
+  Name: Engine Tube
+  Type: BodyTube
+  Mass: 0.733 kg
+  Length: 0.612 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 24:
+  Name: Airbrakes-Engine Coupler
+  Type: TubeCoupler
+  Mass: 0.312 kg
+  Length: 0.32 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 25:
+  Name: Engine Bulkhead
+  Type: Bulkhead
+  Mass: 0.5562 kg
+  Length: 0.015 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 26:
+  Name: Centering Ring
+  Type: CenteringRing
+  Mass: 0.029157624072791443 kg
+  Length: 0.004762499999999999 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 27:
+  Name: Centering Ring
+  Type: CenteringRing
+  Mass: 0.029157624072791443 kg
+  Length: 0.004762499999999999 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 28:
+  Name: Freeform fin set #1
+  Type: FreeformFinSet
+  Mass: 0.60946425 kg
+  Length: 0.330708 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 29:
+  Name: Inner Motor Tube
+  Type: InnerTube
+  Mass: 0.08746076137869509 kg
+  Length: 0.55 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 30:
+  Name: Launch lug
+  Type: LaunchLug
+  Mass: 0.0067 kg
+  Length: 0.03 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 31:
+  Name: Launch lug
+  Type: LaunchLug
+  Mass: 0.0067 kg
+  Length: 0.03 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+
+Component 32:
+  Name: Thrust Plate
+  Type: MassComponent
+  Mass: 0.242 kg
+  Length: 0.028575 m
+  Diameter: Not Available
+  Reference Area: Not Available
+
+--------------------------------------------------
+

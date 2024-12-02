@@ -1,0 +1,18 @@
+Loaded rocket model from 'ork\hyperion_II_v1\hyperion_II_v1.ork'.
+
+Simulation run successful.
+
+Saved plot: ork\hyperion_II_v1\plots\stability_analysis\stability_margin_mach_number.png
+Saved plot: ork\hyperion_II_v1\plots\stability_analysis\stability_margin_vs_mach_number_colored.png
+Average Stability Margin: 3.83 calibers.
+
+Extrema Information:
+
+Stability Margin:
+  Max Value: 4.12 at Time: 3.05 s
+  Min Value: 2.61 at Time: 0.41 s
+
+Mach Number:
+  Max Value: 0.84 at Time: 2.91 s
+  Min Value: 0.00 at Time: 0.01 s
+
