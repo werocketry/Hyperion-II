@@ -34,7 +34,7 @@ For detailed installation instructions see [CameronBrooks11/orlab](https://githu
 
 ### `rasAeroII/`
 
-Placeholder for analyses or configurations related to RASAero II simulations.
+Placeholder for files related to RASAero II simulations.
 
 ### `schematics/`
 
