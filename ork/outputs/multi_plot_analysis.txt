@@ -1,0 +1,44 @@
+Loaded rocket model from 'ork\hyperion_II_v2.ork'.
+
+Simulation run successful.
+
+Saved plot: ork\plots\multi_plots\altitude_vs_time.png
+Altitude vs Time:
+  Max Value: 2869.29 at Time: 23.58 s
+  Min Value: -0.00 at Time: 0.01 s
+
+Saved plot: ork\plots\multi_plots\velocity_vs_time.png
+Total Velocity vs Time:
+  Max Value: 287.37 at Time: 2.93 s
+  Min Value: 0.04 at Time: 0.02 s
+
+Saved plot: ork\plots\multi_plots\acceleration_vs_time.png
+Total Acceleration vs Time:
+  Max Value: 119.94 at Time: 1.21 s
+  Min Value: 0.01 at Time: 31.26 s
+
+Saved plot: ork\plots\multi_plots\thrust_force_vs_time.png
+Thrust Force vs Time:
+  Max Value: 2934.69 at Time: 1.21 s
+  Min Value: 0.00 at Time: 3.03 s
+
+Saved plot: ork\plots\multi_plots\drag_force_vs_time.png
+Drag Force vs Time:
+  Max Value: 2375.60 at Time: 143.77 s
+  Min Value: -0.00 at Time: 0.01 s
+
+Saved plot: ork\plots\multi_plots\mass_vs_time.png
+Mass vs Time:
+  Max Value: 23.56 at Time: 0.01 s
+  Min Value: 20.14 at Time: 3.00 s
+
+Saved plot: ork\plots\multi_plots\mach_number_vs_time.png
+Mach Number vs Time:
+  Max Value: 0.85 at Time: 2.93 s
+  Min Value: 0.01 at Time: 0.01 s
+
+Saved plot: ork\plots\multi_plots\angle_of_attack_vs_time.png
+Angle of Attack vs Time:
+  Max Value: nan at Time: 24.63 s
+  Min Value: nan at Time: 24.63 s
+

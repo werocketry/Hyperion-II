@@ -10,7 +10,7 @@ from orlab import FlightDataType
 
 def stability_analysis():
     # Define the plots directory
-    plots_dir = os.path.join("ork", "hyperion_II_v1", "plots", "stability_analysis")
+    plots_dir = os.path.join("ork", "outputs", "stability_analysis")
     os.makedirs(plots_dir, exist_ok=True)
 
     # Define the key info file path
@@ -20,7 +20,7 @@ def stability_analysis():
         orl = orlab.Helper(instance)
 
         # Load the document and get the simulation
-        ork_file = os.path.join("ork", "hyperion_II_v1", "hyperion_II_v1.ork")
+        ork_file = os.path.join("ork", "hyperion_II_v2.ork")
         if not os.path.exists(ork_file):
             print(f"The .ork file was not found at path: {ork_file}")
             return

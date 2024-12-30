@@ -1,4 +1,4 @@
-# massBudgetSens.py
+# massBudgetSensitivity.py
 
 import os
 import numpy as np
@@ -40,7 +40,7 @@ def mass_budget_sensitivity_analysis():
         orl = orlab.Helper(instance)
 
         # Load the document and get the simulation
-        ork_file = os.path.join("ork", "hyperion_II_v1", "hyperion_II_v1.ork")
+        ork_file = os.path.join("ork", "hyperion_II_v2.ork")
         if not os.path.exists(ork_file):
             logging.error(f"The .ork file was not found at path: {ork_file}")
             return
@@ -212,7 +212,7 @@ def mass_budget_sensitivity_analysis():
         # logging.info("Simulation results saved to 'mass_budget_sensitivity_results.csv'.")
 
         # Create 'plots' directory if it doesn't exist
-        plots_dir = os.path.join("ork", "hyperion_II_v1", "plots")
+        plots_dir = os.path.join("ork", "outputs")
         if not os.path.exists(plots_dir):
             os.makedirs(plots_dir)
             logging.info(f"Created directory '{plots_dir}' for storing plots.")

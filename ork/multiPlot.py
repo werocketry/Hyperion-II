@@ -21,7 +21,7 @@ def log_extrema(file_handle, data_x, data_y, title):
 
 def multi_plot_analysis():
     # Define the plots directory
-    plots_dir = os.path.join("ork", "hyperion_II_v1", "plots")
+    plots_dir = os.path.join("ork", "outputs")
     os.makedirs(plots_dir, exist_ok=True)
 
     # Define the key info file path
@@ -35,7 +35,7 @@ def multi_plot_analysis():
         orl = orlab.Helper(instance)
 
         # Load the document and get the simulation
-        ork_file = os.path.join("ork", "hyperion_II_v1", "hyperion_II_v1.ork")
+        ork_file = os.path.join("ork", "hyperion_II_v2.ork")
         if not os.path.exists(ork_file):
             print(f"The .ork file was not found at path: {ork_file}")
             return

@@ -1,7 +1,7 @@
 List of all components with their attributes:
 
 Component 1:
-  Name: HyperionIIV1
+  Name: HyperionIIV2
   Type: Rocket
   Mass: 0.0 kg
   Length: 2.7974218000000004 m

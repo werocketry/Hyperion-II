@@ -46,7 +46,7 @@ def write_component_attributes_to_file(file_path, all_components):
 
 def list_component_attributes():
     # Define the plots directory
-    plots_dir = os.path.join("ork", "hyperion_II_v1", "plots")
+    plots_dir = os.path.join("ork", "outputs")
     os.makedirs(plots_dir, exist_ok=True)
 
     # Define the output file path
@@ -57,7 +57,7 @@ def list_component_attributes():
         orl = Helper(instance)
 
         # Load the OpenRocket document
-        ork_path = os.path.join("ork", "hyperion_II_v1", "hyperion_II_v1.ork")
+        ork_path = os.path.join("ork", "hyperion_II_v2.ork")
         if not os.path.exists(ork_path):
             print(f"Error: The .ork file was not found at path: {ork_path}")
             return

@@ -22,7 +22,7 @@ def setup_logging():
 
 def mass_override_analysis():
     # Define the plots directory
-    plots_dir = os.path.join("ork", "hyperion_II_v1", "plots")
+    plots_dir = os.path.join("ork", "outputs")
     os.makedirs(plots_dir, exist_ok=True)
 
     setup_logging()
@@ -31,7 +31,7 @@ def mass_override_analysis():
         orl = orlab.Helper(instance)
 
         # Load the document and get the simulation
-        ork_file = os.path.join("ork", "hyperion_II_v1", "hyperion_II_v1.ork")
+        ork_file = os.path.join("ork", "hyperion_II_v2.ork")
         if not os.path.exists(ork_file):
             logging.error(f"The .ork file was not found at path: {ork_file}")
             return
