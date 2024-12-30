@@ -1,0 +1,8 @@
+NOV2224_first - Run 1 Metrics:
+  Max Load (DC1) = 2525.054 N
+  Axial Displacement at Max Load = 59.134 mm
+
+NOV2224_second - Run 1 Metrics:
+  Max Load (DC1) = 1705.136 N
+  Axial Displacement at Max Load = 33.626 mm
+
