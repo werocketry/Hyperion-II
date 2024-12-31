@@ -4,6 +4,8 @@ This repository contains all the resources, designs, and analyses for the Hyperi
 
 ## Repository Details
 
+Click [here](DSS.md) to see the design summary sheet!
+
 ### Structure
 
 ```
