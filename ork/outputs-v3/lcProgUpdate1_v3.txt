@@ -1,0 +1,62 @@
+[INFO] Loaded rocket model from 'ork\hyperion_II_v3.ork'.
+
+[INFO] Simulation run successful.
+
+All Flight Events:
+  LAUNCH: [0.0]
+  IGNITION: [0.0]
+  LIFTOFF: [0.060000000000000005]
+  LAUNCHROD: [0.38000000000000017]
+  BURNOUT: [3.0]
+  EJECTION_CHARGE: [3.0]
+  APOGEE: [23.850000000000207]
+  RECOVERY_DEVICE_DEPLOYMENT: [24.850000000000207, 117.00696193359569]
+  GROUND_HIT: [198.86538851154165]
+  SIMULATION_END: [198.86538851154165]
+
+[INFO] All required flight data types are present.
+
+1. Estimated Average Engine Thrust while on the Rail or Launch Tower:
+   Liftoff Time: 0.06 s
+   - Average Thrust: 650.00 N (146.13 lbf)
+   - Calculation Details:
+     - Total Thrust during on-rail phase: 3900.00 N
+     - Duration of on-rail phase: 0.06 s
+     - Number of thrust data points: 6
+
+2. Rail Exit Velocity [ft/s]:
+   Rail Exit Time: 0.38 s
+   - Rail Exit Velocity: 110.34 ft/s
+
+3. Descent from Apogee Velocity [ft/s]:
+   Apogee Time: 23.85 s
+   Recovery Device Deployment Time: 24.85 s
+   - Average Descent Velocity: 25.96 ft/s
+   - Calculation Details:
+     - Duration of descent phase: 1.00 s
+     - Number of velocity data points: 21
+
+3. Average Velocity Between Drogue and Main Deployment [ft/s]:
+   Drogue Deployment Time: 24.85 s
+   Main Deployment Time: 117.01 s
+   - Average Velocity Between Deployments: 90.08 ft/s
+   - Calculation Details:
+     - Duration: 92.16 s
+     - Data Points: 187
+
+4. Ground Hit Velocity [ft/s]:
+   - Ground Hit Velocity: 17.53 ft/s
+   - Calculation Details:
+     - Ground Hit Time: 198.87 s
+     - Velocity at Ground Hit: 5.34 m/s
+
+Saved plot: ork\outputs-v3\plots-lcProgUpdate1\thrust_vs_time.png
+
+Saved plot: ork\outputs-v3\plots-lcProgUpdate1\velocity_vs_time.png
+
+Saved plot: ork\outputs-v3\plots-lcProgUpdate1\altitude_vs_time.png
+
+Using recovery device deployment time: 24.85 s
+
+Saved plot: ork\outputs-v3\plots-lcProgUpdate1\descent_velocity.png
+

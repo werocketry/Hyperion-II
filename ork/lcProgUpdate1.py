@@ -16,18 +16,24 @@ def setup_directories():
         key_info_file_path (str): Path to the .txt file for key info.
         individual_plots_dir (str): Path to store individual plot images.
     """
+
+    # 0. Set the path to the .ork file
+    version = input("Enter the version number (e.g., 2 for v2): ")
+    ork_file = os.path.join("ork", f"hyperion_II_v{version}.ork")
+    print(f".ork file path set to: {ork_file}")
+
     # 1. Set up directories
-    plots_dir = os.path.join("ork", "outputs", "lcProgUpdate1")
+    plots_dir = os.path.join("ork", f"outputs-v{version}")
     os.makedirs(plots_dir, exist_ok=True)
     print(f"[INFO] Plots directory set to: {plots_dir}")
 
-    key_info_file_path = os.path.join(plots_dir, "lcProgUpdate1.txt")
+    key_info_file_path = os.path.join(plots_dir, f"lcProgUpdate1_v{version}.txt")
 
-    individual_plots_dir = os.path.join(plots_dir, "plots")
+    individual_plots_dir = os.path.join(plots_dir, "plots-lcProgUpdate1")
     os.makedirs(individual_plots_dir, exist_ok=True)
     print(f"[INFO] Individual plots directory set to: {individual_plots_dir}")
 
-    return plots_dir, key_info_file_path, individual_plots_dir
+    return ork_file, plots_dir, key_info_file_path, individual_plots_dir
 
 
 def load_and_run_simulation(helper, ork_file):
@@ -341,7 +347,6 @@ def plot_flight_events(ax, events, event_labels, event_colors, time):
 
     # To prevent label overlapping, keep track of y-offsets
     y_offsets = {}
-    current_y_offset = 0.02  # Initial offset
 
     for event in all_events:
         t = event["time"]
@@ -359,7 +364,6 @@ def plot_flight_events(ax, events, event_labels, event_colors, time):
 
         # Get y-limit to place the label
         y_min, y_max = ax.get_ylim()
-        y_pos = y_max - (y_max - y_min) * y_offsets[label]
 
         # Annotate the event
         ax.annotate(
@@ -607,13 +611,8 @@ def lcProgUpdate1():
     Main function to run the entire logic of building directories, loading & simulating the rocket,
     retrieving data and events, computing key info, and generating plots.
     """
-
     # Set up directories
-    plots_dir, key_info_file_path, individual_plots_dir = setup_directories()
-
-    # Define the .ork file path
-    ork_file = os.path.join("ork", "hyperion_II_v2.ork")
-    print(f".ork file path set to: {ork_file}")
+    ork_file, plots_dir, key_info_file_path, individual_plots_dir = setup_directories()
 
     # Create an OpenRocket instance
     with orlab.OpenRocketInstance() as instance:

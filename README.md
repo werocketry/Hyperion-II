@@ -45,7 +45,7 @@ Contains electronic schematics and related documentation for onboard systems.
 Documents all physical tests, including aerodynamics, electronics, and structural assessments. Each test has its own subfolder with details and results.
 
 - **Key Subfolders**:
-  - `aero/2024-11-24_compression_al_couplers/`: Contains data for aluminum coupler compression testing on the specified date.
+  - `2024-11-24_compression_al_couplers/`: Contains data for aluminum coupler compression testing on the specified date.
 
 ## Contributing
 

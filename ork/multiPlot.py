@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import orlab
-from orlab import FlightDataType
+from orlab import FlightDataType, FlightEvent
 
 
 def log_extrema(file_handle, data_x, data_y, title):
@@ -20,9 +20,16 @@ def log_extrema(file_handle, data_x, data_y, title):
 
 
 def multi_plot_analysis():
-    # Define the plots directory
-    plots_dir = os.path.join("ork", "outputs")
+
+    # 0. Set the path to the.ork file
+    version = input("Enter the version number (e.g., 2 for v2): ")
+    ork_file = os.path.join("ork", f"hyperion_II_v{version}.ork")
+    print(f".ork file path set to: {ork_file}")
+
+    # 1. Set up directories
+    plots_dir = os.path.join("ork", f"outputs-v{version}")
     os.makedirs(plots_dir, exist_ok=True)
+    print(f"[INFO] Plots directory set to: {plots_dir}")
 
     # Define the key info file path
     key_info_file_path = os.path.join(plots_dir, "multi_plot_analysis.txt")
@@ -34,10 +41,8 @@ def multi_plot_analysis():
     with orlab.OpenRocketInstance() as instance:
         orl = orlab.Helper(instance)
 
-        # Load the document and get the simulation
-        ork_file = os.path.join("ork", "hyperion_II_v2.ork")
         if not os.path.exists(ork_file):
-            print(f"The .ork file was not found at path: {ork_file}")
+            print(f"The.ork file was not found at path: {ork_file}")
             return
 
         try:
@@ -45,7 +50,7 @@ def multi_plot_analysis():
             sim = doc.getSimulation(0)
             print(f"Loaded rocket model from '{ork_file}'.\n")
         except Exception as e:
-            print(f"Failed to load the .ork file: {e}")
+            print(f"Failed to load the.ork file: {e}")
             return
 
         # Run the simulation
@@ -74,9 +79,10 @@ def multi_plot_analysis():
                     FlightDataType.TYPE_CP_LOCATION,
                 ],
             )
-            print("Flight data retrieved successfully.\n")
+            events = orl.get_events(sim)
+            print("Flight data and events retrieved successfully.\n")
         except Exception as e:
-            print(f"Failed to retrieve flight data: {e}")
+            print(f"Failed to retrieve flight data and events: {e}")
             return
 
         # Open the key info file for writing
@@ -176,6 +182,42 @@ def multi_plot_analysis():
                     plt.grid(True)
                     if "label" in config and config["label"]:
                         plt.legend()
+
+                    # Annotate events
+                    index_at = lambda t: (
+                        np.abs(data[FlightDataType.TYPE_TIME] - t)
+                    ).argmin()
+                    for event, times in events.items():
+                        event_name = event.name.replace("_", " ").title()
+                        for time in times:
+                            if event_name == "Apogee" or event_name == "Launchrod":
+                                plt.annotate(
+                                    event_name,
+                                    xy=(
+                                        time,
+                                        data[FlightDataType.TYPE_ALTITUDE][
+                                            index_at(time)
+                                        ],
+                                    ),
+                                    xycoords="data",
+                                    xytext=(20, 10),
+                                    textcoords="offset points",
+                                    arrowprops=dict(
+                                        arrowstyle="->", connectionstyle="arc3"
+                                    ),
+                                )
+                            else:
+                                plt.annotate(
+                                    event_name,
+                                    xy=(time, config["data_y"][index_at(time)]),
+                                    xycoords="data",
+                                    xytext=(20, 10),
+                                    textcoords="offset points",
+                                    arrowprops=dict(
+                                        arrowstyle="->", connectionstyle="arc3"
+                                    ),
+                                )
+
                     plt.tight_layout()
                     plot_path = os.path.join(individual_plots_dir, config["filename"])
                     plt.savefig(plot_path)
