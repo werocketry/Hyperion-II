@@ -3472,7 +3472,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 93.98) (xy 161.29 93.98)
+			(xy 130.81 93.98) (xy 158.75 93.98)
 		)
 		(stroke
 			(width 0.3)
@@ -3657,7 +3657,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 189.23) (xy 115.57 189.23)
+			(xy 158.75 189.23) (xy 115.57 189.23)
 		)
 		(stroke
 			(width 0.3)
@@ -3701,17 +3701,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 93.98) (xy 161.29 102.87)
-		)
-		(stroke
-			(width 0.3)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "48722cb8-9843-4040-a104-3198d99384ce")
-	)
-	(wire
-		(pts
 			(xy 71.12 43.18) (xy 71.12 35.56)
 		)
 		(stroke
@@ -3734,7 +3723,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 113.03) (xy 161.29 187.96)
+			(xy 152.4 121.92) (xy 152.4 186.69)
 		)
 		(stroke
 			(width 0.3)
@@ -3742,17 +3731,6 @@
 			(color 194 0 0 1)
 		)
 		(uuid "4ac42f0d-7c54-498d-ad19-56760d31f8e0")
-	)
-	(wire
-		(pts
-			(xy 133.35 121.92) (xy 153.67 121.92)
-		)
-		(stroke
-			(width 0.3)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "4bff0416-00ff-4825-b03c-c1110006d123")
 	)
 	(wire
 		(pts
@@ -3811,6 +3789,17 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 93.98) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "59a0abe3-e3e3-43d7-a259-d78b8811115b")
+	)
+	(wire
+		(pts
 			(xy 33.02 63.5) (xy 60.96 63.5)
 		)
 		(stroke
@@ -3863,6 +3852,17 @@
 			(color 0 194 0 1)
 		)
 		(uuid "6304cc99-30ab-4634-88e0-98f77bb7c215")
+	)
+	(wire
+		(pts
+			(xy 130.81 121.92) (xy 130.81 114.3)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "638a29e6-c6c0-493d-88c1-bd971c0fdff8")
 	)
 	(wire
 		(pts
@@ -4108,6 +4108,17 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 93.98) (xy 158.75 102.87)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "842d9c31-f8e1-4578-908e-5ff0bd5c324d")
+	)
+	(wire
+		(pts
 			(xy 64.77 186.69) (xy 64.77 189.23)
 		)
 		(stroke
@@ -4119,7 +4130,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 187.96) (xy 118.11 187.96)
+			(xy 152.4 186.69) (xy 118.11 186.69)
 		)
 		(stroke
 			(width 0.3)
@@ -4130,7 +4141,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 121.92) (xy 153.67 189.23)
+			(xy 158.75 113.03) (xy 158.75 189.23)
 		)
 		(stroke
 			(width 0.3)
@@ -4171,17 +4182,6 @@
 			(color 194 0 0 1)
 		)
 		(uuid "989c90c3-7560-4375-9181-96f8ebe06d87")
-	)
-	(wire
-		(pts
-			(xy 133.35 121.92) (xy 133.35 111.76)
-		)
-		(stroke
-			(width 0.3)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "992a7cc6-7745-42b5-ab2d-385f4ac8352b")
 	)
 	(wire
 		(pts
@@ -4370,7 +4370,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 187.96) (xy 118.11 185.42)
+			(xy 118.11 186.69) (xy 118.11 185.42)
 		)
 		(stroke
 			(width 0.3)
@@ -4477,6 +4477,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "c6010161-d54e-41ee-ac76-0b46ba8b24c8")
+	)
+	(wire
+		(pts
+			(xy 152.4 121.92) (xy 130.81 121.92)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "c90dba55-fdc8-4080-a85d-da75bee35ec4")
 	)
 	(wire
 		(pts
@@ -4612,17 +4623,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 93.98) (xy 133.35 101.6)
-		)
-		(stroke
-			(width 0.3)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(uuid "e4568824-8d33-48fa-b403-601e78db2e4c")
-	)
-	(wire
-		(pts
 			(xy 53.34 43.18) (xy 53.34 35.56)
 		)
 		(stroke
@@ -4721,7 +4721,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 133.35 106.68 0)
+		(at 158.75 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4729,7 +4729,7 @@
 		(dnp no)
 		(uuid "2321704e-47d9-42c7-9b19-004afbf560dc")
 		(property "Reference" "BT5"
-			(at 138.684 107.696 0)
+			(at 164.084 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4737,7 +4737,7 @@
 			)
 		)
 		(property "Value" "4.1V LIPO"
-			(at 138.938 110.744 0)
+			(at 164.338 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 105.156 90)
+			(at 158.75 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +4754,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 105.156 90)
+			(at 158.75 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +4763,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 133.35 106.68 0)
+			(at 158.75 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6076,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 161.29 107.95 90)
+		(at 130.81 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6084,7 +6084,7 @@
 		(dnp no)
 		(uuid "e156b627-753d-490a-b83d-50a1223abdee")
 		(property "Reference" "SW6"
-			(at 163.83 107.95 0)
+			(at 133.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6092,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 166.37 107.95 0)
+			(at 135.89 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 107.95 0)
+			(at 130.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 107.95 0)
+			(at 130.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +6118,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 161.29 107.95 0)
+			(at 130.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
