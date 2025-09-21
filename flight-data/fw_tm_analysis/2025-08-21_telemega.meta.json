@@ -1,0 +1,554 @@
+{
+  "report": {
+    "samples": 3418,
+    "first_utc": "2025-08-21T18:11:46+00:00",
+    "last_utc": "2025-08-21T18:13:04+00:00",
+    "duration_s": 78.0,
+    "dt_mean_s": 0.0228270412642669,
+    "dt_std_s": 0.14935182439925657,
+    "dt_min_s": 0.0,
+    "dt_max_s": 1.0,
+    "nominal_rate_hz": 10.0,
+    "estimated_rate_hz": 43.80769230769231,
+    "gaps_count": 78,
+    "gaps_examples": [
+      {
+        "utc_before": "2025-08-21T18:11:46+00:00",
+        "utc_after": "2025-08-21T18:11:47+00:00",
+        "gap_s": 1.0
+      },
+      {
+        "utc_before": "2025-08-21T18:11:47+00:00",
+        "utc_after": "2025-08-21T18:11:48+00:00",
+        "gap_s": 1.0
+      },
+      {
+        "utc_before": "2025-08-21T18:11:48+00:00",
+        "utc_after": "2025-08-21T18:11:49+00:00",
+        "gap_s": 1.0
+      },
+      {
+        "utc_before": "2025-08-21T18:11:49+00:00",
+        "utc_after": "2025-08-21T18:11:50+00:00",
+        "gap_s": 1.0
+      },
+      {
+        "utc_before": "2025-08-21T18:11:50+00:00",
+        "utc_after": "2025-08-21T18:11:51+00:00",
+        "gap_s": 1.0
+      }
+    ],
+    "duplicate_timestamps": 3418,
+    "key_channels": {
+      "acceleration": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": -204.96,
+        "max": 111.31,
+        "mean": -2.57337039204213,
+        "std": 32.90228988694984
+      },
+      "pressure": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 68756.0,
+        "max": 97897.0,
+        "mean": 81494.73961380924,
+        "std": 10872.649773823741
+      },
+      "altitude": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 289.34,
+        "max": 3152.91,
+        "mean": 1856.7998741954361,
+        "std": 1067.1202575416044
+      },
+      "height": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": -9.33,
+        "max": 2854.23,
+        "mean": 1558.1214599180807,
+        "std": 1067.120370320225
+      },
+      "speed": {
+        "count": 3418,
+        "nonnull": 816,
+        "coverage": 0.23873610298420128,
+        "min": -173.7,
+        "max": 0.7,
+        "mean": -52.281556372549026,
+        "std": 57.20016384826953
+      },
+      "temperature": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 35.6,
+        "max": 36.3,
+        "mean": 35.9693680514921,
+        "std": 0.1640466500457403
+      },
+      "drogue_voltage": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.6,
+        "max": 4.13,
+        "mean": 3.471021064950263,
+        "std": 1.2263838312238227
+      },
+      "main_voltage": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 4.12,
+        "mean": 3.5657519016968986,
+        "std": 1.3892290167060286
+      },
+      "battery_voltage": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 4.08,
+        "max": 4.12,
+        "mean": 4.112355178466939,
+        "std": 0.005773692211219216
+      },
+      "pyro": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 4.11,
+        "max": 4.14,
+        "mean": 4.12571679344646,
+        "std": 0.006903452212100344
+      },
+      "accel_x": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 0.1,
+        "mean": 0.03878583967232299,
+        "std": 0.023607263232073485
+      },
+      "accel_y": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "accel_z": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 0.02,
+        "mean": 2.9256875365710943e-05,
+        "std": 0.0007643831124233803
+      },
+      "gyro_roll": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 66.29,
+        "mean": 57.3811205383265,
+        "std": 22.360853407869836
+      },
+      "gyro_pitch": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": -0.06,
+        "max": 66.47,
+        "mean": 55.90133996489175,
+        "std": 19.773891372380845
+      },
+      "gyro_yaw": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "mag_x": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "mag_y": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "mag_z": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "tilt": {
+        "count": 3418,
+        "nonnull": 0,
+        "coverage": 0.0,
+        "min": null,
+        "max": null,
+        "mean": null,
+        "std": null
+      },
+      "nsat": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 5.0,
+        "max": 11.0,
+        "mean": 9.915447630193094,
+        "std": 1.4329733524274129
+      },
+      "latitude": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 47.9868668,
+        "max": 47.9874213,
+        "mean": 47.987153494821534,
+        "std": 0.0001255103922390212
+      },
+      "longitude": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": -81.8698993,
+        "max": -81.8484808,
+        "mean": -81.85691037665302,
+        "std": 0.006887284272028336
+      },
+      "pdop": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 1.5,
+        "max": 3.3,
+        "mean": 1.6733469865418373,
+        "std": 0.33978528589854257
+      },
+      "hdop": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.8,
+        "max": 1.8,
+        "mean": 0.8712404915155063,
+        "std": 0.12443310929215814
+      },
+      "vdop": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 1.2,
+        "max": 3.0,
+        "mean": 1.3770626097132823,
+        "std": 0.3552011390895438
+      },
+      "pad_dist": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 1595.0,
+        "mean": 628.6770040959625,
+        "std": 512.1147327850991
+      },
+      "pad_range": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 3070.0,
+        "mean": 1826.8897015798714,
+        "std": 973.4802970032065
+      },
+      "pad_az": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 345.0,
+        "mean": 266.4540667056758,
+        "std": 59.17237192080433
+      },
+      "pad_el": {
+        "count": 3418,
+        "nonnull": 3418,
+        "coverage": 1.0,
+        "min": 0.0,
+        "max": 83.0,
+        "mean": 62.98039789350497,
+        "std": 29.409070255617458
+      }
+    },
+    "extremes": {
+      "height": {
+        "max": 2854.23,
+        "max_utc": "2025-08-21T18:12:10+00:00",
+        "min": -9.33,
+        "min_utc": "2025-08-21T18:11:46+00:00"
+      },
+      "altitude": {
+        "max": 3152.91,
+        "max_utc": "2025-08-21T18:12:10+00:00",
+        "min": 289.34,
+        "min_utc": "2025-08-21T18:11:46+00:00"
+      },
+      "speed": {
+        "max": 0.7,
+        "max_utc": "2025-08-21T18:12:10+00:00",
+        "min": -173.7,
+        "min_utc": "2025-08-21T18:12:32+00:00"
+      },
+      "acceleration": {
+        "max": 111.31,
+        "max_utc": "2025-08-21T18:11:47+00:00",
+        "min": -204.96,
+        "min_utc": "2025-08-21T18:12:34+00:00"
+      },
+      "battery_voltage": {
+        "max": 4.12,
+        "max_utc": "2025-08-21T18:11:46+00:00",
+        "min": 4.08,
+        "min_utc": "2025-08-21T18:12:42+00:00"
+      }
+    },
+    "motion_metrics": {
+      "apogee": {
+        "column_used": "height",
+        "value_native": 2854.23,
+        "utc": "2025-08-21T18:12:10+00:00",
+        "time_to_apogee_from_liftoff_s": 24.0
+      },
+      "speed": {
+        "max_native": 0.7,
+        "utc": "2025-08-21T18:12:10+00:00"
+      },
+      "liftoff_utc": "2025-08-21T18:11:46+00:00"
+    },
+    "state_transitions": [
+      {
+        "type": "state_change",
+        "state": "boost",
+        "UTC": "2025-08-21T18:11:46+00:00",
+        "Row": 0,
+        "t_rel_s": 0.0
+      },
+      {
+        "type": "state_change",
+        "state": "coast",
+        "UTC": "2025-08-21T18:11:49+00:00",
+        "Row": 361,
+        "t_rel_s": 3.0
+      },
+      {
+        "type": "state_change",
+        "state": "boost",
+        "UTC": "2025-08-21T18:11:49+00:00",
+        "Row": 415,
+        "t_rel_s": 3.0
+      },
+      {
+        "type": "state_change",
+        "state": "coast",
+        "UTC": "2025-08-21T18:11:49+00:00",
+        "Row": 441,
+        "t_rel_s": 3.0
+      },
+      {
+        "type": "state_change",
+        "state": "boost",
+        "UTC": "2025-08-21T18:11:49+00:00",
+        "Row": 442,
+        "t_rel_s": 3.0
+      },
+      {
+        "type": "state_change",
+        "state": "coast",
+        "UTC": "2025-08-21T18:11:49+00:00",
+        "Row": 444,
+        "t_rel_s": 3.0
+      },
+      {
+        "type": "state_change",
+        "state": "boost",
+        "UTC": "2025-08-21T18:11:49+00:00",
+        "Row": 455,
+        "t_rel_s": 3.0
+      },
+      {
+        "type": "state_change",
+        "state": "coast",
+        "UTC": "2025-08-21T18:11:50+00:00",
+        "Row": 467,
+        "t_rel_s": 4.0
+      },
+      {
+        "type": "state_change",
+        "state": "drogue",
+        "UTC": "2025-08-21T18:12:10+00:00",
+        "Row": 2570,
+        "t_rel_s": 24.0
+      },
+      {
+        "type": "state_change",
+        "state": "coast",
+        "UTC": "2025-08-21T18:12:10+00:00",
+        "Row": 2572,
+        "t_rel_s": 24.0
+      },
+      {
+        "type": "state_change",
+        "state": "drogue",
+        "UTC": "2025-08-21T18:12:10+00:00",
+        "Row": 2577,
+        "t_rel_s": 24.0
+      },
+      {
+        "type": "state_change",
+        "state": "coast",
+        "UTC": "2025-08-21T18:12:10+00:00",
+        "Row": 2578,
+        "t_rel_s": 24.0
+      },
+      {
+        "type": "state_change",
+        "state": "drogue",
+        "UTC": "2025-08-21T18:12:10+00:00",
+        "Row": 2579,
+        "t_rel_s": 24.0
+      },
+      {
+        "type": "state_change",
+        "state": "coast",
+        "UTC": "2025-08-21T18:12:10+00:00",
+        "Row": 2589,
+        "t_rel_s": 24.0
+      },
+      {
+        "type": "state_change",
+        "state": "drogue",
+        "UTC": "2025-08-21T18:12:10+00:00",
+        "Row": 2590,
+        "t_rel_s": 24.0
+      },
+      {
+        "type": "state_change",
+        "state": "coast",
+        "UTC": "2025-08-21T18:12:10+00:00",
+        "Row": 2591,
+        "t_rel_s": 24.0
+      },
+      {
+        "type": "state_change",
+        "state": "drogue",
+        "UTC": "2025-08-21T18:12:11+00:00",
+        "Row": 2614,
+        "t_rel_s": 25.0
+      },
+      {
+        "type": "state_change",
+        "state": "main",
+        "UTC": "2025-08-21T18:12:34+00:00",
+        "Row": 2959,
+        "t_rel_s": 48.0
+      },
+      {
+        "type": "state_change",
+        "state": "drogue",
+        "UTC": "2025-08-21T18:12:34+00:00",
+        "Row": 2973,
+        "t_rel_s": 48.0
+      },
+      {
+        "type": "state_change",
+        "state": "main",
+        "UTC": "2025-08-21T18:12:34+00:00",
+        "Row": 2977,
+        "t_rel_s": 48.0
+      },
+      {
+        "type": "state_change",
+        "state": "landed",
+        "UTC": "2025-08-21T18:13:04+00:00",
+        "Row": 3417,
+        "t_rel_s": 78.0
+      }
+    ],
+    "flag_edges_count": {
+      "connected": 0,
+      "locked": 0,
+      "igniter_a": 0,
+      "igniter_b": 0,
+      "igniter_c": 0,
+      "igniter_d": 0,
+      "accel_y": 0,
+      "accel_z": 0,
+      "gyro_yaw": 0,
+      "mag_x": 0,
+      "mag_y": 0,
+      "mag_z": 0,
+      "sat01": 0,
+      "sat03": 0,
+      "sat04": 0,
+      "sat05": 0,
+      "sat06": 0,
+      "sat07": 0,
+      "sat09": 0,
+      "sat11": 0,
+      "sat13": 0,
+      "sat16": 0,
+      "sat17": 0,
+      "sat19": 0,
+      "sat20": 0,
+      "sat21": 0,
+      "sat25": 0,
+      "sat26": 0,
+      "sat28": 0,
+      "sat29": 0,
+      "sat30": 0,
+      "sat31": 0
+    },
+    "plots_written": [
+      "tm_altitudes.png",
+      "tm_speed.png",
+      "tm_acceleration.png",
+      "tm_tilt.png",
+      "tm_voltages.png"
+    ],
+    "file": "D:\\repos\\post-flight-analysis\\playground\\altusmetrum\\2025-08-21_redundant_telemega.csv",
+    "output_dir": "D:\\repos\\post-flight-analysis\\playground\\altusmetrum\\fw_tm_analysis"
+  },
+  "events_written": true,
+  "events_file": "2025-08-21_telemega.events.csv"
+}
